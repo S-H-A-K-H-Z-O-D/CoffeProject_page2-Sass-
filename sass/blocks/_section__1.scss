@@ -1,0 +1,33 @@
+.section1{
+    position: relative;
+    padding: 0 100px;
+    height: 80vh;
+    margin: 100px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    &::before{
+        content: "";
+        position: absolute;
+        left: 100px;
+        width: 370px;
+        height: 450px;
+        background: url(../img/section2-pic.jpg) no-repeat;
+        background-size: 100% 100%;
+        border-radius: 10px;
+    }
+
+    &__content{
+        width: 46%;
+        color: #333D4B;
+
+        &__title{
+            font-family: fraunces;
+        }
+
+        &__description{
+            line-height: 24px;
+        }
+    }
+}
