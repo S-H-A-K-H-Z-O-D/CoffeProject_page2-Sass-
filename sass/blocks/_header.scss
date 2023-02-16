@@ -1,5 +1,5 @@
 header{
-    background: url(../img/Bitmap.jpg) no-repeat;
+    background: url(../../img/Bitmap.jpg) no-repeat;
     background-size: 100% 100%;
     border-radius: 10px;
 }
@@ -18,3 +18,16 @@ header{
         line-height: 24px;
     }
 }
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  header{
+    background-image: url(../../img/bitmap@2.png);
+  }
+} 
